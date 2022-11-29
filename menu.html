@@ -1,0 +1,174 @@
+<!DOCTYPE html> 
+<html lang = "en">
+
+<head>
+	<title> The Bakery </title> 
+	<meta charset = "utf-8"> 
+	<meta name = "viewport" content = "width=device-width, initialscale=1.0">
+	<link rel = "stylesheet" href = "style.css" media = "screen">
+	<!-- Importing Different Symbols and Font --> 
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel = "stylesheet" href = 'https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+	<script src = "script.js"></script>
+</head>
+
+<body onload = "load();load2()" >
+<!-- Liquid Layout for Website -->
+<div id = "wrapper"> 
+<!-- Header and Nav (Uses hamburger menu for responsive design)--> 
+	<header>
+		
+		<a href="index.html"> <img class="ipad" src="logo.png" alt="The Bakery Logo"> </a> 
+	
+		<nav>
+			<input type="checkbox" id="check"> 
+			<label for="check">  
+				<i class='bx bx-menu' id = "btn"> </i>
+				<i class='bx bx-x' id = "cancel"> </i> 
+			</label> 
+	
+			<a href="index.html"> <img src="logo.png" alt="The Bakery Logo"> </a> 
+			
+			<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="menu.html">Menu</a> </li>
+					<li> <a href="custom.html">Customizer</a> </li>
+					<li> <a href="about.html">About Us</a> </li>
+			</ul>
+
+		</nav>
+		
+	</header> 
+	
+	<main>
+
+    <!-- Home Section -->
+        <div id = "menu-home">
+
+            <div class = "title"> 
+
+            <h1> Our Menu </h1>
+			
+			    <p> Select from our variety of offers! <p>
+                    
+            </div>
+			
+		</div>  
+
+        <div id = "menu-search"> 
+
+            <h2> Menu </h2>
+
+            <input type = "text" name = "search" class = "search-bar" placeholder = " Search for ...." /> 
+
+            <div id="menu-gallery">
+                <figure>
+					<a href=""> <img src="Menu_Pictures/baguette.jpg" alt="Baguette" height=300> </a>
+					<figcaption> Baguette </figcaption>
+				</figure>
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/brioche.jpg" alt="Brioche" height=300> </a>
+					<figcaption> Brioche </figcaption>
+				</figure>
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/muffin.jpg" alt="Chocolate Muffin" height=300> </a>
+					<figcaption> Chocolate Muffin </figcaption>
+				</figure>
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/cinnamon.jpg" alt="Cinnamon Rolls" height=300> </a>
+					<figcaption>  Cinnamon Rolls </figcaption>
+				</figure>
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/croissant.jpg" alt="Croissant" height=300> </a>
+					<figcaption> Croissant </figcaption>
+				</figure>
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/focaccia.jpg" alt="Focaccia" height=300> </a>
+					<figcaption> Focaccia </figcaption>
+				</figure> 
+
+                <figure>
+					<a href=""> <img src="Menu_Pictures/donut.jpg" alt="Glazed Donuts" height=300> </a>
+					<figcaption>  Glazed Donuts </figcaption>
+				</figure>
+		
+				<figure>
+					<a href=""> <img src="Menu_Pictures/sourdough.jpg" alt="Sourdough" height=300> </a>
+					<figcaption>  Sourdough </figcaption>
+				</figure> 
+
+                <figure> 
+					<a href=""> <img src="Menu_Pictures/whitebread.jpg" alt="White Bread" height=300 > </a> 
+					<figcaption> White Bread </figcaption>
+				</figure>
+				
+			</div> 
+
+        </div>
+    
+	</main>
+
+<!-- Footer including socials, site map and other links --> 
+	<footer>
+	
+		<div class="container">
+		
+			<div class="footer-content">
+				<h3> Bakery Shop </h3>
+					<h4> Hope you like bread! <br/> 
+					The best way to get through life! </h4> 
+			</div>
+			
+			<div class="footer-content">
+				<h3> Site Map </h3>
+				<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="menu.html">Menu</a> </li>
+					<li> <a href="custom.html">Customizer</a> </li>
+					<li> <a href="about.html">About Us</a> </li>
+				</ul>
+			</div>
+			
+			<div class="footer-content">
+				<h3> Helpful Links </h3>
+				<ul>
+					<li><a href="">Accessibility</a></li> 
+					<li><a href="">Technical Contact</a></li> 
+					<li><a href="">Courses</a></li> 
+					<li><a href="">FAQs</a></li> 
+					<li><a href="">Policies</a></li> 
+					<li><a href="">Copyright and Terms of Use</a></li>	
+				</ul> 
+			</div>
+			
+			<div class="footer-content">
+				<h3> Socials </h3>
+				<div class="social">
+					<a href = "https://www.facebook.com/"> <i class="fa fa-facebook-official"></i></a>
+					<a href = "https://www.youtube.com/"> <i class="fa fa-youtube-play"></i></a>
+					<a href = "https://twitter.com/?lang=en"> <i class="fa fa-twitter"></i></a>
+					<a href = "https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+					<a href = "https://www.pinterest.com/"> <i class="fa fa-pinterest"></i></a>
+				</div> 
+			</div>
+			
+		</div>
+
+		<div class="bottom-footer"> 
+		
+			<p> All rights are owned and reserved by &copy;The Bakery 2022 </p> 
+			
+		</div>
+
+	</footer> 
+	
+</div>
+
+</body>
+
+</html> 

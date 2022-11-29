@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+<html lang = "en">
+
+<head>
+	<title> The Bakery </title> 
+	<meta charset = "utf-8"> 
+	<meta name = "viewport" content = "width=device-width, initialscale=1.0">
+	<link rel = "stylesheet" href = "style.css" media = "screen">
+	<!-- Importing Different Symbols and Font --> 
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel = "stylesheet" href = 'https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+    <script src="script.js"></script>
+</head>
+
+<body onload = "load()">
+<!-- Liquid Layout for Website -->
+<div id = "wrapper"> 
+<!-- Header and Nav (Uses hamburger menu for responsive design)--> 
+	<header>
+		
+		<a href="index.html"> <img class="ipad" src="logo.png" alt="The Bakery Logo"> </a> 
+	
+		<nav>
+			<input type="checkbox" id="check"> 
+			<label for="check">  
+				<i class='bx bx-menu' id = "btn"> </i>
+				<i class='bx bx-x' id = "cancel"> </i> 
+			</label> 
+	
+			<a href="index.html"> <img src="logo.png" alt="The Bakery Logo"> </a> 
+			
+			<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="menu.html">Menu</a> </li>
+					<li> <a href="custom.html">Customizer</a> </li>
+					<li> <a href="about.html">About Us</a> </li>
+			</ul>
+
+		</nav>
+		
+	</header> 
+	
+	<main>
+
+    <!-- Home Section -->
+        <div id = "custom-home">
+
+            <div class = "title"> 
+
+            <h1> Custom Cakes! </h1>
+			
+			    <p> Choose your best! <p>
+                    
+            </div>
+			
+		</div>  
+    
+        <div id = "cake-custom"> 
+		
+        <h2> Cake Customizer </h2> 
+        
+        <div id="cakeContainer">
+            <div id="cakeBackground">
+            <div id="bottomFrosting"></div>
+            <div id="topFrosting"></div>
+            <div id="bottomLayer"></div>
+            <div id="topLayer"></div>
+            <div id="topStyle"></div>
+            <div id="bottomStyle"></div>
+            </div>
+
+            <div>
+                <input id="nextFrostB" type="button" value ="Next Bottom Frosting" onclick="nextFrostB()">
+            </div>
+            <div>
+                <input id="nextLayerB" type="button" value ="Next Bottom Layer" onclick="nextLayerB()">
+            </div>
+            <div>
+                <input id="nextFrostT" type="button" value ="Next Top Frosting" onclick="nextFrostT()">
+            </div>
+            <div>
+                <input id="nextLayerT" type="button" value ="Next Top Layer" onclick="nextLayerT()">
+            </div>
+            <div>
+                <input id="nextStyleT" type="button" value ="Next Top Style" onclick="nextStyleT()">
+            </div>
+            <div>
+                <input id="nextStyleB" type="button" value ="Next Bottom Style" onclick="nextStyleB()">
+            </div>
+            <div>
+                <input id="cakeStack" type="button" value ="Stack" onclick="nextStack()">
+            </div>
+            <div>
+                <input id="submit" type="button" value ="Submit" onclick="">
+            </div>
+    
+        </div>
+
+	</main>
+
+<!-- Footer including socials, site map and other links --> 
+	<footer>
+	
+		<div class="container">
+		
+			<div class="footer-content">
+				<h3> Bakery Shop </h3>
+					<h4> Hope you like bread! <br/> 
+					The best way to get through life! </h4> 
+			</div>
+			
+			<div class="footer-content">
+				<h3> Site Map </h3>
+				<ul>
+					<li> <a href="index.html">Home</a> </li>
+					<li> <a href="menu.html">Menu</a> </li>
+					<li> <a href="custom.html">Customizer</a> </li>
+					<li> <a href="about.html">About Us</a> </li>
+				</ul>
+			</div>
+			
+			<div class="footer-content">
+				<h3> Helpful Links </h3>
+				<ul>
+					<li><a href="">Accessibility</a></li> 
+					<li><a href="">Technical Contact</a></li> 
+					<li><a href="">Courses</a></li> 
+					<li><a href="">FAQs</a></li> 
+					<li><a href="">Policies</a></li> 
+					<li><a href="">Copyright and Terms of Use</a></li>	
+				</ul> 
+			</div>
+			
+			<div class="footer-content">
+				<h3> Socials </h3>
+				<div class="social">
+					<a href = "https://www.facebook.com/"> <i class="fa fa-facebook-official"></i></a>
+					<a href = "https://www.youtube.com/"> <i class="fa fa-youtube-play"></i></a>
+					<a href = "https://twitter.com/?lang=en"> <i class="fa fa-twitter"></i></a>
+					<a href = "https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+					<a href = "https://www.pinterest.com/"> <i class="fa fa-pinterest"></i></a>
+				</div> 
+			</div>
+			
+		</div>
+
+		<div class="bottom-footer"> 
+		
+			<p> All rights are owned and reserved by &copy;The Bakery 2022 </p> 
+			
+		</div>
+
+	</footer> 
+	
+</div>
+
+</body>
+
+</html> 
